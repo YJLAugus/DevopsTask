@@ -1,0 +1,3 @@
+Dear teacher,
+
+I misunderstood the requirements of which python job at first and used Django to complete the requirements. Finally I noticed that it was to be configured in Apache, so I used mod_python to configure the completion.

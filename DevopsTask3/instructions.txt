@@ -1,0 +1,7 @@
+I did an exmaple for task, and it includes all steps in task3.
+
+1.The backend.tf is for database.
+2.The variables.tf is for variables in vps.
+3.The terraform.tfvars is for values of variables.
+4.The vpc.tf is for Gateway and Web-application.
+5.The zap_scan.yaml is for security scanner.But I think it has a little problems still.

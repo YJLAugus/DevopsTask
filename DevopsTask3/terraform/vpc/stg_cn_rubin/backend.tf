@@ -1,5 +1,5 @@
 provider "aws" {
-  region = "${var.aws_region}"  # 引用了变量，变量值在variables.tf中
+  region = "${var.aws_region}"  
 }
 
 terraform {
@@ -7,7 +7,7 @@ terraform {
   backend "s3" {
   encrypt = "true"
   bucket = "rubin-cn-stg-terraform-state"
-  region = "cn-north-1"
+  region = "us-east-2"
   key = "vpc/stg_cn_rubin/terraform.tfstate"
   dynamodb_table = "terraform-lock"
   }

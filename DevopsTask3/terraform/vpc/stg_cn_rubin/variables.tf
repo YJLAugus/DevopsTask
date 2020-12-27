@@ -1,5 +1,5 @@
 variable "aws_region" {
-  default = "cn-north-1"
+  default = "us-east-2"
 }
 
 variable "vpc_name" {
